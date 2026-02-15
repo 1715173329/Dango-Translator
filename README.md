@@ -1,8 +1,8 @@
 # 团子翻译器 - 基于OCR的生肉翻译软件
 
 
-[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.4-ff69b4)](https://github.com/PantsuDango/Dango-Translator)
-[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--31-ff69b4)]()
+[![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.5-ff69b4)](https://github.com/PantsuDango/Dango-Translator)
+[![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2026--02--15-ff69b4)]()
 [![操作系统](https://img.shields.io/badge/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-win7--11-ff69b4)]()
 [![GitHubStars](https://img.shields.io/github/stars/PantsuDango/Dango-Translator)]()
 [![GitHubForks](https://img.shields.io/github/forks/PantsuDango/Dango-Translator)]()
@@ -38,23 +38,34 @@
 - 群文件下载: [![群号](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E4%BA%A4%E6%B5%81%E7%BE%A4-6%E7%BE%A4434137389-ff69b4)](https://github.com/PantsuDango/ImageHub/blob/master/DangoTranslate/public/qrcode_1759602480385.jpg)  
 - 官网下载: [下载地址](https://translator.dango.cloud)
 - 网盘下载: [夸克网盘](https://pan.quark.cn/s/eb5663a0edf2)
-- Github Releases: [v6.1.4](https://github.com/PantsuDango/Dango-Translator/releases/tag/Ver6.1.4)
+- Github Releases: [v6.1.4](https://github.com/PantsuDango/Dango-Translator/releases/tag/Ver6.1.5)
 
 ## 更新日志
 [![最新版本](https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC-v6.1.4-ff69b4)]()
 [![更新时间](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4-2025--10--31-ff69b4)]()
 
-版本号：6.1.4
-#### 更新时间 2025/10/31
-1. 优化在线AI大模型的翻译逻辑, 修复开启上下文时导致的某些缺陷;      
-2. 修正deepseek的api地址;      
-3. 开启漫画翻译笔刷填涂时, 提示用户非100%缩放比例下操作笔刷填涂会影响译图分辨率;
+版本号：6.1.5
+#### 更新时间 2026/02/15
+实时翻译: 
+1. 新增日文注音功能, 可在实时翻译设置里开启;      
+2. 新增即时翻译功能, 可在翻译框界面工具栏点击编辑按钮打开;      
+3. 调低了翻译框显示的字体大小下限;      
 
-版本号：6.1.3
-#### 更新时间 2025/10/21
-1. 优化漫画翻译日语以外语种的识别效果, 日语以外语种现在会调用新的漫画ocr模型;      
-2. 将翻译历史按钮加回到翻译框工具栏上;      
-3. 调整了翻译框高度自适应文本的逻辑, 现在翻译框默认会随译文内容自适应高度. 若需要固定翻译框高度, 可于实时翻译-显示设定-翻译框设定里调节;
+漫画翻译:
+1. 识别语种支持俄语, 译文语种支持繁中;      
+2. 样式模板最大保存数量扩大为50;      
+3. 新增一些快捷键, 可在漫画翻译界面右上角快捷键功能键点击查看;      
+4. 优化了编辑工具栏, 调整为可折叠;      
+5. 新增文本块合并功能, 可将多个文本块合并为一个文本块;      
+6. 优化了字体大小逻辑, 现在改变字体大小会更符合直觉;      
+7. 新增将导入的原文和译文导出导入的功能;      
+8. 新增对.jfif格式的图片支持;      
+9. 新增可隐藏文本块的功能;      
+10. 新增本地调用漫画API, 漫画翻译现在拓展了API接口可供本地调用;      
+11. 新增选中文本块尺寸可通过鼠标滚轮缩放大小;      
+
+全局:
+1. 修复了各种已知问题, 优化了一些使用体验;
 
 
 ## 原理说明
